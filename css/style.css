@@ -1,0 +1,174 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family:verdana;
+}
+
+/*header section start*/
+.header_section{
+    background: #8057F5;
+    height: 90px;
+}
+.wrapper{
+    width:900px;
+    margin:0 auto;
+}
+.logo{
+    width: 20%;
+    float: left;
+    padding-top: 25px;
+}
+.logo img{}
+.nav{
+    width: 80%;
+    float: right;
+}
+.nav ul {
+    float: right;
+    padding-top: 40px;
+}
+.nav ul li{
+    display: inline;
+}
+.nav ul li a{
+    color: white;
+    padding: 0 10px;
+    font-size: 15px;
+    text-decoration: none;
+    transition: .2s ease;
+}
+.nav ul li a:hover{
+color:lightgray;
+}
+/*header section end*/
+
+
+/*header content section start*/
+.header_content{
+     background: #8057F5;
+     padding: 90px 0;
+     overflow: hidden;
+}
+.h_content{}
+.h_content h1{
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+.h_content p{
+    color: white;
+    line-height: 1.7;
+    text-align: center;
+    font-size: 14px;
+    padding: 20px 0;
+}
+/*header content section end*/
+
+/*main content section start*/
+.main_content{}
+.one{
+    overflow:hidden;
+}
+.one h2{
+    font-size: 20px;
+    color: #333;
+    padding: 20px 0;
+}
+.one p{
+    font-size: 14px;
+    color: gray;
+    width: 300px;
+    line-height: 1.5;
+}
+.float-left{
+    width: 50%;
+    float: left;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.float-right{
+    width: 50%;
+    padding: 50px;
+    box-sizing: border-box;
+    float:right;
+}
+
+.float-right img{
+    width:100%;
+}
+
+
+.left{
+    float:left;
+}
+
+.right{
+    float:right;
+}
+
+.right a {
+    color: white;
+    background: #3339ff;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: block;
+    width: 29%;
+}
+
+.right a:hover{
+    background: #3a40ff; 
+}
+
+/*main content section end*/
+
+
+/*footer section start*/
+.footer-section {
+    background: #f3f1ff;
+}
+.finish-part{}
+.finish-part img{}
+.finish-part p{
+    font-size: 14px;
+    color: gray;
+    padding-top: 20px;
+    line-height: 1.5;
+}
+.finish-part h3{
+    font-size: 16px;
+    margin-top: 10px;
+    color: #333;
+}
+.same-width{
+    width: 25%;
+    float: left;
+    padding: 24px;
+    box-sizing: border-box;
+}
+.same-width ul{
+    list-style: none;
+    padding: 25px 0;
+}
+.same-width ul li{
+    padding: 5px 0;
+}
+.same-width ul li a{
+    font-size: 14px;
+    color: gray;
+    text-decoration: none;
+}
+.same-width ul li a:hover{}
+
+.footer-bg img{
+width:100%;
+}
+
+
+
+/*footer section end*/
