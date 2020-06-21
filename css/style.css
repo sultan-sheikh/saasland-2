@@ -13,7 +13,7 @@ body{
     height: 90px;
 }
 .wrapper{
-    width:900px;
+    width: 1000px;
     margin:0 auto;
 }
 .logo{
@@ -68,7 +68,9 @@ color:lightgray;
 /*header content section end*/
 
 /*main content section start*/
-.main_content{}
+.main_content{
+    margin-bottom: 100px;
+}
 .one{
     overflow:hidden;
 }
@@ -86,7 +88,7 @@ color:lightgray;
 .float-left{
     width: 50%;
     float: left;
-    padding: 50px;
+    padding: 40px;
     box-sizing: border-box;
 }
 
@@ -118,7 +120,7 @@ color:lightgray;
     border-radius: 5px;
     margin-top: 20px;
     display: block;
-    width: 29%;
+    width: 24%;
 }
 
 .right a:hover{
